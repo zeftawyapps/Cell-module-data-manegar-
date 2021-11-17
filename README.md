@@ -1,5 +1,5 @@
 <!-- 
-This README describes the package. If you publish this package to pub.dev,
+This moazaa describes the package. If you publish this package to pub.dev,
 this README's contents appear on the landing page for your package.
 
 For information about how to write a good package README, see the guide for
@@ -11,17 +11,11 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
+TODO: this package is very useful to data managing by collecting data from json and allocating to cells to view it to widgets like list view and grid view  of app or get the data from input widgets and formatting it to map json and sending it to data stage like firebase of nade js back end 
+ 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+TODO:  
 
 ## Usage
 

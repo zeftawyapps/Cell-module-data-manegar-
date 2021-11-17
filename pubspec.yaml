@@ -10,6 +10,57 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations: # Add this line
+    sdk: flutter
+    # Localization dependency
+  intl: ^0.17.0
+    # State management
+  flutter_bloc: ^7.0.1
+    # Service Locator
+  get_it: ^7.2.0
+    # prints beautiful logs
+  logger: ^1.0.0
+    # Functional programming in Dart
+  dartz: ^0.10.0-nullsafety.2
+    # shared preferences
+  shared_preferences: ^2.0.6
+    #  Http client for Dart
+  dio: ^4.0.0
+    # Pretty Dio logger is a Dio interceptor that logs network calls in a pretty, easy to read format
+  pretty_dio_logger: ^1.2.0-beta-1
+    # adapting screen and font size
+  flutter_screenutil: ^5.0.0+2
+    # scroll component drop-down refresh
+  pull_to_refresh: ^2.0.0
+    # launching a URL in the mobile platform. Supports iOS and Android.
+  url_launcher: ^6.0.9
+    #  A simple widget wrapper to enable modal progress HUD
+  modal_progress_hud_nsn: ^0.1.0-nullsafety-1
+    # This Flutter plugin provides an API for querying information about an application package.
+  package_info: ^2.0.2
+    # A pure dart toast Library.
+  oktoast: ^3.0.0
+    # A Flutter plugin for finding commonly used locations on the filesystem.
+    # Supports iOS, Android, Linux and MacOS. Not all methods are supported on all platforms.
+  path_provider: ^2.0.2
+    # A set of high-level APIs over PointyCastle for two-way cryptography.
+  encrypt: ^5.0.0
+    # Flutter Modal Bottom Sheet
+  modal_bottom_sheet: ^2.0.0
+  provider: ^5.0.0
+
+  freezed_annotation: ^0.14.2
+  firebase_core:
+  firebase_auth:
+  cloud_firestore:
+  firebase_storage:
+  google_sign_in:
+  date_time_picker:
+  datetime_picker_formfield:
+  http:
+  image_picker:
+  persistent_bottom_nav_bar:
+  cloud_functions:
 
 dev_dependencies:
   flutter_test:
